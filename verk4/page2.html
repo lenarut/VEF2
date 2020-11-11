@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>sign the potition to get milk banned</legend>
+        <label>
+            Name
+            <input type="text" name="name" placeholder="Full name" required="" autofocus="" title="Write your name"> <!--ATH! input hefur ekki lokunartag -->
+        </label>
+        <label>
+
+            Phone
+            <input type="text" name="phone" placeholder="123 4567" title="please write 7 numbers" required="" pattern="\d{3}(?:[\-\s]?)\d{4}">
+        </label>
+        <label>
+
+            Email
+            <input type="email" name="email" placeholder="Email address" required="">
+            </label>
+        <label>
+
+            Day
+            <input type="date" name="dagsetning" required="">
+            <br>
+            <br>
+            do you want to be notified about updates
+            <br>
+            <input type="radio" id="yes" name="notified" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="notified" value="no">
+            <label for="no">No</label><br>
+
+
+        </label>
+        <label>
+        <br>
+            extra notes
+            <textarea rows="4" name="Athugasemdir"></textarea>
+        </label>
+            <input type="submit" name="submit" value="submit">
+    </fieldset>
+
+</body>
+</html>
